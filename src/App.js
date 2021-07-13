@@ -4,7 +4,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import 'antd/dist/antd.css';
 import Topbar from './components/Topbar';
 import Home from './components/Home';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import { connect } from 'react-redux'
 import AddMedicine from './components/Admin/addMedicine';
 import ViewInventory from './components/Admin/viewInventory';
